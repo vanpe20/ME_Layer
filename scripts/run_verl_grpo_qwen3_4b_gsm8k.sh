@@ -19,6 +19,7 @@ TRAIN_PARQUET=${TRAIN_PARQUET:-${DATA_DIR}/train.parquet}
 VAL_PARQUET=${VAL_PARQUET:-${DATA_DIR}/test.parquet}
 
 MODEL=${MODEL:-Qwen/Qwen3-4B}
+MODEL_EXTERNAL_LIB=${MODEL_EXTERNAL_LIB:-modeling_qwen3_train}
 
 NUM_GPUS=${NUM_GPUS:-2}
 NNODES=${NNODES:-1}
@@ -119,7 +120,7 @@ export PYTHONPATH="${REPO_ROOT}/src:${REPO_ROOT}:${PYTHONPATH:-}"
   data.truncation=error \
   actor_rollout_ref.model.path="${MODEL}" \
   actor_rollout_ref.rollout.mode=async \
-  actor_rollout_ref.model.external_lib=modeling_qwen3 \
+  actor_rollout_ref.model.external_lib="${MODEL_EXTERNAL_LIB}" \
   actor_rollout_ref.model.trust_remote_code=True \
   actor_rollout_ref.actor.optim.lr=1e-6 \
   actor_rollout_ref.actor.ppo_mini_batch_size="${PPO_MINI_BATCH_SIZE}" \

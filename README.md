@@ -3,12 +3,12 @@
 
   <br>
   <a href="">
-    <img src="https://img.shields.io/badge/ArXiv-DeepEyes-brown?logo=arxiv" alt="Paper">
+    <img src="https://img.shields.io/badge/ArXiv-WeMask-brown?logo=arxiv" alt="Paper">
   </a>
   <a href="https://huggingface.co/DarkBluee/WeMask">
     <img src="https://img.shields.io/badge/🤗 huggingface-Model-purple" alt="checkpoint">
   </a>
-  <a href="">
+  <a href="https://vanpe20.github.io/ME-Layer.github.io/">
     <img src="https://img.shields.io/badge/-HomePage-black?logo=github" alt="checkpoint">
   </a>
 </div>
