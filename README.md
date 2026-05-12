@@ -2,7 +2,7 @@
   <h1 style="font-size: 32px; font-weight: bold;"> A Single Layer to Explain Them All: Understanding Massive Values in Large Language Models </h1>
 
   <br>
-  <a href="">
+  <a href="https://arxiv.org/pdf/2605.08504">
     <img src="https://img.shields.io/badge/ArXiv-WeMask-brown?logo=arxiv" alt="Paper">
   </a>
   <a href="https://huggingface.co/DarkBluee/WeMask">
