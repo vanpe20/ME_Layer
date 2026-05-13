@@ -88,10 +88,13 @@ bash scripts/test_gsm8k.sh
 If you think our research is helpful, please cite with
 
 ```bibtex
-@article{me_layer_2026,
-  title={A Single Layer to Explain Them All: Understanding Massive Values in Large Language Models},
-  author={Your Name and Co-authors},
-  journal={Proceedings of the 43rd International Conference on Machine Learning (ICML)},
-  year={2026}
+@misc{shi2026singlelayerexplainallunderstanding,
+    title={A Single Layer to Explain Them All:Understanding Massive Activations in Large Language Models}, 
+    author={Zeru Shi and Zhenting Wang and Fan Yang and Qifan Wang and Ruixiang Tang},
+    year={2026},
+    eprint={2605.08504},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2605.08504}, 
 }
 ```
